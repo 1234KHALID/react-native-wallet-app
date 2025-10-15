@@ -1,5 +1,5 @@
 import { Redirect, Stack } from "expo-router";
-import { useU, useUserser } from "@clerk/clerk-expo";
+import { useUser } from "@clerk/clerk-expo";
 
 export default function AuthRoutesLayout() {
   const { isSignedIn } = useUser();

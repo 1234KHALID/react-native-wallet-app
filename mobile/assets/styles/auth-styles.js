@@ -9,7 +9,7 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
   },
   illustration: {
-    width: "100%",
+    width: 300,
     height: 310,
     resizeMode: "contain",
   },
@@ -36,9 +36,12 @@ export const styles = StyleSheet.create({
   button: {
     backgroundColor: COLORS.primary,
     borderRadius: 12,
-    padding: 16,
+    paddingLeft: 16,
+    paddingRight: 16,
+    paddingTop: 12,
+    paddingBottom: 12,
     alignItems: "center",
-    marginTop: 10,
+    marginTop: 5,
     marginBottom: 20,
   },
   buttonText: {
